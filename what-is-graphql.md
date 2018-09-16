@@ -100,7 +100,7 @@ query User($id: ID) {
 }
 ```
 
-Basic mutation
+Basic mutation:
 
 ```
 mutation CreatePost($title: String!, $content: String!, $draft: Boolean!) {
@@ -159,23 +159,23 @@ Today, GraphQL is used in production by lots of different companies such as GitH
 
 **Related projects and libraries**
 
-Apollo (GraphQL server + client) <https://www.apollographql.com/>
-Relay (GraphQL client) <https://facebook.github.io/relay/>
-Prisma (GraphQL server with ORM-like DB queries to MySQL + Postgres) <https://www.prisma.io/>
-PostGraphile (GraphQL API from a Postgres schema) <https://www.graphile.org/postgraphile/>
-Hasura (GraphQL server to Postgres mapping service) <https://hasura.io/>
-GraphCMS <https://graphcms.com/>
-Graphene JS & Python <http://graphene-js.org/> <http://graphene-python.org/>
+- Apollo (GraphQL server + client) <https://www.apollographql.com/>
+- Relay (GraphQL client) <https://facebook.github.io/relay/>
+- Prisma (GraphQL server with ORM-like DB queries to MySQL + Postgres) <https://www.prisma.io/>
+- PostGraphile (GraphQL API from a Postgres schema) <https://www.graphile.org/postgraphile/>
+- Hasura (GraphQL server to Postgres mapping service) <https://hasura.io/>
+- GraphCMS <https://graphcms.com/>
+- Graphene JS & Python <http://graphene-js.org/> <http://graphene-python.org/>
 
 **Attached resources**
 
-Full-stack introduction to GraphQL: <https://www.howtographql.com/>
-Zero to GraphQL in 30m: <https://www.youtube.com/watch?v=UBGzsb2UkeY>
-GraphQL Community Resources: <https://graphql.org/community/>
-GraphQL intro: <https://graphql.org/learn/>
-Awesome GraphQL: <https://github.com/chentsulin/awesome-graphql>
+- Full-stack introduction to GraphQL: <https://www.howtographql.com/>
+- Zero to GraphQL in 30m: <https://www.youtube.com/watch?v=UBGzsb2UkeY>
+- GraphQL Community Resources: <https://graphql.org/community/>
+- GraphQL intro: <https://graphql.org/learn/>
+- Awesome GraphQL: <https://github.com/chentsulin/awesome-graphql>
 
 **Example codebase**
 
-Airbnb Clone server (NodeJS): <https://github.com/prismagraphql/graphql-server-example>
-E-commerce full-stack (React+NodeJS) <https://github.com/KATT/shop>
+- Airbnb Clone server (NodeJS): <https://github.com/prismagraphql/graphql-server-example>
+- E-commerce full-stack (React+NodeJS) <https://github.com/KATT/shop>
