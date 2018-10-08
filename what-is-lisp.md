@@ -1,12 +1,12 @@
-**What is Lisp?**
+**What is Lisp?**  
 Originally specified in 1958, Lisp is the second oldest high level programming language in use today. (Only younger than FORTRAN by one year!).    There have been many different dialects of Lisp that have come and gone over the ages. In the modern day, some of the most known and used Lisp dialects (lisps) are Common Lisp, Clojure/ClojureScript, Racket and Scheme. The name "Lisp" was derived from "LISt Processor", and the list data structure is at the core of the language. Many recognizable language features were first developed in Lisp; dynamic typing, garbage collection, the read-eval-print loop, and more.
 
-**How hard are Lisps to learn?**
+**How hard are Lisps to learn?**  
 The basics are not very difficult (especially because there aren't that many basics to learn). Experience with functional programming translates well. Most Lisps have a very small set of keywords and syntax rules, and rich libraries constructed atop those simple essentials. A lot of newcomers to Lisps are initially put off by a lot of parentheses, but most of those newcomers come to accept, and in some cases, admire the simplicity provided by, those parens. For example, Lisps usually have no concept of 'operator precedence' - the innermost parens are evaluated first.
 
 If you know python, this document may be of particular interest to you: http://norvig.com/python-lisp.html. Even if you don't know python, the second paragraph under the heading "Introducing Python" explains some Lisp philosophy of use.
 
-**What are some key features?**
+**What are some key features?**  
 - Homoiconicity: Lisps treat data and code similarly - that is to say, the code you write is in the form of lisp data structures (arbitrarily nested lists) that the lisp interpreter reads and evaluates. While this can feel awkward at first, it allows for what might be the simplest metaprogramming constructs.
 
 - Macros: Macros let you expand and redefine the syntax of the language itself. Think of it as having a hook into the interpreter... you get to write what feel like functions that return lisp expressions, and the interpreter will expand those macros, and then evaluate the code that the macro expands to. This is only possible because lisp code is written as s-expressions (lists enclosed in parens). As a result, you don't find any grunt-work in lisp. No need to type semi-similar chunks of code over and over again when you can just invent new syntax for it. How powerful are macros? As one example, Clojure's function and macro definition operators are both macros that use the 'special form' (roughly a keyword) "def".
@@ -33,7 +33,7 @@ Some Dialect-specific features and philosophy:
 - Racket:
     - Promotes itself as a "programming-language programming language", provides facilities for defining other languages (general purpose or domain specific) through Racket, and then writing programs in those languages to be compiled by Racket
 
-**Build systems, repos, notable libraries and other operational tooling:**
+**Build systems, repos, notable libraries and other operational tooling:**  
 - Common Lisp:
     - Quicklisp (package manager)
     - Clack (webserver)
@@ -54,12 +54,12 @@ Some Dialect-specific features and philosophy:
 - Racket:
     - Racket ships with raco, a build tool that creates modules, standalone executables, documentation, etc
 
-**What platforms can Lisps run on?**
+**What platforms can Lisps run on?**  
 - Common Lisp: Various implementations, interpreted, compiles to native.
 - Clojure(Script): JVM/JS/CLR.
 - Racket: Runs on Windows, MacOS, and Linux, by building native binaries
 
-**Learning resources, blogs, sources of information:**
+**Learning resources, blogs, sources of information:**  
 - Common Lisp:
     - Practical Common Lisp (book available online): http://www.gigamonkeys.com/book/
     - Land of Lisp: http://landoflisp.com/
@@ -101,7 +101,7 @@ Some Dialect-specific features and philosophy:
 
     - Racket: By default, Racket comes with DrRacket, an IDE with extensive documentation of the language
 
-**Other resources:**
+**Other resources:**  
 - A couple of talks given by Rich Hickey, creator of Clojure
     - Simple Made Easy - an examination of the definitions of simple, easy, and complex, and some of the powers of simplicity: https://www.infoq.com/presentations/Simple-Made-Easy
     - Clojure, Made Simple - a talk about shortcomings and incidental complexity associated with OO programming, and Clojure's responses to them: https://www.youtube.com/watch?v=VSdnJDO-xdg
